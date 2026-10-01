@@ -3,10 +3,10 @@
 /* Premium service imagery */
 .service-card{min-height:390px;background-repeat:no-repeat;background-position:center top;background-size:100% 190px;position:relative;isolation:isolate}
 .service-card:after{content:'';position:absolute;inset:0 0 auto;height:215px;z-index:-1;background:linear-gradient(180deg,rgba(255,255,255,0) 40%,rgba(255,255,255,.96) 100%);pointer-events:none}
-.service-purple{background-image:url('/ride.webp')}
-.service-yellow{background-image:url('/food.webp')}
-.service-teal{background-image:url('/express.webp')}
-.service-pink{background-image:url('/grocery.webp')}
+.service-purple{background-image:url('ride.webp')}
+.service-yellow{background-image:url('food.webp')}
+.service-teal{background-image:url('express.webp')}
+.service-pink{background-image:url('grocery.webp')}
 .service-card .card-number{position:relative;z-index:2;background:rgba(255,255,255,.78);padding:3px 7px;border-radius:20px;display:inline-block}
 .service-card .service-icon{z-index:2;background:rgba(255,255,255,.86);backdrop-filter:blur(6px);box-shadow:0 6px 14px rgba(30,22,73,.12)}
 .service-card h3{margin-top:177px;position:relative;z-index:2}
