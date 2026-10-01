@@ -23,3 +23,6 @@
 .store-button em{font-style:normal;font-size:9px;color:var(--teal);border:1px solid rgba(89,217,200,.6);border-radius:20px;padding:3px 6px}
 @media(max-width:850px){.service-card{background-size:100% 175px}.service-card h3{margin-top:162px}}
 @media(max-width:480px){.service-card{min-height:370px;background-size:100% 165px}.service-card h3{margin-top:152px}.store-button{min-width:0;min-height:64px}.store-button b{font-size:14px}.store-button em{display:none}}
+
+/* Responsive safety across phone, tablet and desktop */
+html,body{overflow-x:hidden}img{display:block;max-width:100%;height:auto}.hero-visual,.why-art,.captain-stat{max-width:100%}.store-buttons,.footer-links{flex-wrap:wrap}.store-button{flex:1 1 160px;min-width:0}@media(max-width:850px){.hero-grid,.why-grid,.captain-grid{width:100%}.download-copy{min-width:0}.footer-links{row-gap:12px}}@media(max-width:480px){.hero-actions{flex-wrap:wrap;row-gap:14px}.hero-actions .button{flex:1 1 170px;justify-content:center}.hero-actions .text-link{flex:1 1 150px;text-align:center}.store-button{flex:1 1 0}.footer-links{justify-content:flex-start;column-gap:14px}}
